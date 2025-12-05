@@ -1,0 +1,44 @@
+body{
+    margin: 0%;
+}
+
+h1 {
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.074rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+nav {    
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-content: space-between;
+
+    padding: 24px 16px 24px 10px;
+}
+
+.hammock {
+    width: 100%;
+}
+
+header {
+    color: #F3E8D2;
+    background-color: #8E8C6F;
+}
+
+.btn {
+    text-decoration: none;
+    color: #8E8C6F;
+    text-align: center;
+    
+    background-color: #F3E8D2;
+    width: 50px;
+    border-radius: 50px;
+    
+    padding: 0 100px 0 100px;
+}
