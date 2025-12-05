@@ -1,3 +1,7 @@
+* {
+    font-family: "Agrandir";
+}
+
 body{
     margin: 0%;
 }
@@ -73,4 +77,25 @@ header {
 section {
     color: #8E8C6F;
     text-align: center;
+}
+
+section img {
+    border-radius: 20px;
+}
+
+section div {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: space-around;
+
+    justify-content: center;
+    align-items: end;
+    gap: 16px;
+}
+
+.img3 {
+    margin-top: 16px;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
 }
