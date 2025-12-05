@@ -64,13 +64,12 @@ header {
     border-radius: 28px;
 }
 
-.line {
-    font-size: 8px;
+hr {
+    height: 4px;
     position: relative;
     top: -24px;
     background-color: #F3E8D2;
-    color: #8e8c6f00;
-
+    border: none;
     border-radius: 4px;
 }
 
@@ -98,4 +97,31 @@ section div {
     margin-bottom: 40px;
     position: relative;
     display: inline-block;
+}
+
+.checkmark {
+    display: block;
+    text-align: center;
+
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #8E8C6F;
+}
+
+.checkmark p {
+    margin: 0;
+    font-size: 0.694rem;
+
+    position: relative;
+    top: 0.5px;
+}
+
+.left {
+    text-align: left;
+
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 24px;
+    align-items: center;
 }
