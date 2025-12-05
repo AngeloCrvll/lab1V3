@@ -18,6 +18,10 @@ a {
     font-size: 1.2rem;
 }
 
+.padding {
+    padding: 0px 16px 0px 16px;
+}
+
 nav {    
     display: grid;
     grid-template-columns: 1fr auto;
@@ -28,15 +32,16 @@ nav {
 
 .hammock {
     width: 100%;
+    padding: 0;
 }
 
 header {
     color: #F3E8D2;
     background-color: #8E8C6F;
 
-    padding-bottom: 24px;
-
+    padding-bottom: 16px;
     border-radius: 0 0 0 40px;
+    margin-bottom: 40px;
 }
 
 .btn {
@@ -53,4 +58,19 @@ header {
     text-align: center;
     align-content: center;
     border-radius: 28px;
+}
+
+.line {
+    font-size: 8px;
+    position: relative;
+    top: -24px;
+    background-color: #F3E8D2;
+    color: #8e8c6f00;
+
+    border-radius: 4px;
+}
+
+section {
+    color: #8E8C6F;
+    text-align: center;
 }
