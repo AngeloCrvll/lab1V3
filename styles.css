@@ -158,6 +158,12 @@ td {
     padding-top: 24px;
 }
 
+.data table {
+    margin: 0 auto;
+    width: 80%;
+    table-layout: fixed;
+}
+
 .data {
     background-color: #F3E8D2;
     color: #8E8C6F;
@@ -169,9 +175,5 @@ td {
     text-align: center;
 
     display: grid;
-    align-content: center;
-}
-
-.dataPadL {
-    margin-left: 8px;
+    grid-template-columns: 1fr;
 }
