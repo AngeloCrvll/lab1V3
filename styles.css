@@ -48,7 +48,7 @@ header {
     margin-bottom: 40px;
 }
 
-.btn {
+.btnWhite {
     background-color: #F3E8D2;
     color: #8E8C6F;
 
@@ -73,16 +73,16 @@ hr {
     border-radius: 4px;
 }
 
-section {
+.white1 {
     color: #8E8C6F;
     text-align: center;
 }
 
-section img {
+.white1 img {
     border-radius: 20px;
 }
 
-section div {
+.white1 div {
     display: grid;
     grid-template-columns: auto auto;
     align-content: space-around;
@@ -115,6 +115,7 @@ section div {
 
     position: relative;
     top: 0.5px;
+    left: 8px;
 }
 
 .left {
@@ -124,4 +125,53 @@ section div {
     grid-template-columns: auto 1fr;
     gap: 24px;
     align-items: center;
+}
+
+.btnGreen {
+    background-color: #8E8C6F;
+    color: #F3E8D2;
+
+    text-decoration: none;
+    display: block;
+    margin: auto;
+
+    width: 160px;
+    height: 56px;
+
+    text-align: center;
+    align-content: center;
+    border-radius: 28px;
+}
+
+td {
+    padding-right: 16px;
+}
+
+.green1 {
+    border-radius: 0px 16px;
+
+    background-color: #8E8C6F;
+    color: #F3E8D2;
+    text-align: center;
+
+    margin-top: 40px;
+    padding-top: 24px;
+}
+
+.data {
+    background-color: #F3E8D2;
+    color: #8E8C6F;
+
+    margin: 0px 16px;
+
+    border-radius: 16px;
+
+    text-align: center;
+
+    display: grid;
+    align-content: center;
+}
+
+.dataPadL {
+    margin-left: 8px;
 }
