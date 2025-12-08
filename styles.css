@@ -156,6 +156,7 @@ hr {
 
     margin-top: 40px;
     padding-top: 24px;
+    padding-bottom: 16px;
 }
 
 .data {
@@ -181,4 +182,24 @@ hr {
 
 .data td p {
     margin: 0;
+}
+
+.grey {
+    margin: 16px;
+    border-radius: 16px;
+    background-color: #D9D9D9;
+
+    height: 240px;
+
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr auto;
+
+    position: relative;
+}
+
+#beanbag {
+    position: absolute;
+    right: 8px;
+    bottom: -1830px;
 }
