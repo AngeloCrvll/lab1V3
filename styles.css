@@ -22,6 +22,11 @@ h2 {
     font-size: 1.44rem;
 }
 
+h3 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 p {
     font-size: 1rem;
 }
@@ -244,23 +249,21 @@ hr {
 }
 
 .artikel {
-    margin: 0 16px;
+    margin: 16px;
     border-radius: 16px;
 
     background: #D9D9D9;
     color: #8E8C6F;
 
     text-align: left;
-
     display: grid;
     align-content: end;
 }
 
 .artikel div {
-
     margin-top: 240px;
     background: #F3E8D2;
-    padding-left: 8px;
+    padding: 0 16px;
     border-radius: 0 0 16px 16px;
 }
 
@@ -270,4 +273,42 @@ hr {
     font-weight: 400;
     font-style: normal;
     font-size: 1rem;
+}
+
+.white3 {
+    padding-top: 80px;
+    color: #8E8C6F;
+    text-align: center;
+}
+
+.grey2 {
+    margin: 16px 16px 40px 16px;
+    border-radius: 16px;
+    background-color: #D9D9D9;
+
+    height: 400px;
+
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr auto;
+
+    position: relative;
+}
+
+.FAQ {
+    text-align: left;
+}
+
+.FAQ h3 {
+    margin-bottom: 0 0 16px 0;
+    align-self: center;
+}
+
+.FAQ p {
+    margin: 0 0 16px 0;
+}
+
+.FAQqstn {
+    display: grid;
+    grid-template-columns: 1fr auto;
 }
