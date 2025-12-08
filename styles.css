@@ -14,6 +14,14 @@ h1 {
     font-size: 2.074rem;
 }
 
+h2 {
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.44rem;
+}
+
 p {
     font-size: 1rem;
 }
@@ -221,4 +229,45 @@ hr {
 
 .pijlers td {
     padding: 16px;
+}
+
+.green2 {
+    border-radius: 0px 16px;
+
+    background-color: #8E8C6F;
+    color: #F3E8D2;
+    text-align: center;
+
+    margin-top: 80px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.artikel {
+    margin: 0 16px;
+    border-radius: 16px;
+
+    background: #D9D9D9;
+    color: #8E8C6F;
+
+    text-align: left;
+
+    display: grid;
+    align-content: end;
+}
+
+.artikel div {
+
+    margin-top: 240px;
+    background: #F3E8D2;
+    padding-left: 8px;
+    border-radius: 0 0 16px 16px;
+}
+
+.leesmeer {
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
 }
