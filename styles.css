@@ -143,7 +143,7 @@ hr {
     border-radius: 28px;
 }
 
-td {
+.padding .left td {
     padding-right: 16px;
 }
 
@@ -158,12 +158,6 @@ td {
     padding-top: 24px;
 }
 
-.data table {
-    margin: 0 auto;
-    width: 80%;
-    table-layout: fixed;
-}
-
 .data {
     background-color: #F3E8D2;
     color: #8E8C6F;
@@ -176,4 +170,15 @@ td {
 
     display: grid;
     grid-template-columns: 1fr;
+}
+
+.data table {
+    margin: 0 auto;
+    width: 90%;
+    table-layout: fixed;
+
+}
+
+.data td p {
+    margin: 0;
 }
