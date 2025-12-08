@@ -203,3 +203,22 @@ hr {
     right: 8px;
     bottom: -1830px;
 }
+
+.white2 {
+    padding-top: 80px;
+    color: #8E8C6F;
+    text-align: center;
+}
+
+.pijlers {
+    display: grid;
+    align-content: space-around;
+}
+
+.pijlers table {
+    margin: 0 auto;
+}
+
+.pijlers td {
+    padding: 16px;
+}
